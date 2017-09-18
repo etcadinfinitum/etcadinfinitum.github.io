@@ -1,0 +1,7 @@
+Guess what? You're looking at it!
+
+    -   First foray into HTML5, CSS, JavaScript/jQuery, and web applications
+    -   Utilized the Bootstrap library to leverage responsive elements
+    
+Click <a href="">here</a> to view the code. Please feel free to continue browsing the site for interesting features and functionality.
+Time to production: 
