@@ -1,7 +1,8 @@
-Guess what? You're looking at it!
+<p>Guess what? You're looking at it!<br />
 
-    -   First foray into HTML5, CSS, JavaScript/jQuery, and web applications
+    -   First foray into HTML5, CSS, JavaScript/jQuery, and web applications<br />
     -   Utilized the Bootstrap library to leverage responsive elements
+</p>
     
-Click <a href="">here</a> to view the code. Please feel free to continue browsing the site for interesting features and functionality.
-Time to production: 
+<p>Click <a target="_blank" href="">here</a> to view the code. Please feel free to continue browsing the site for interesting features and functionality.</p>
+<p>Time to production: August 24th to present</p>
