@@ -3,6 +3,6 @@
     -   First foray into HTML5, CSS, JavaScript/jQuery, and web applications<br />
     -   Utilized the Bootstrap library to leverage responsive elements
 </p>
-    
-<p>Click <a target="_blank" href="">here</a> to view the code. Please feel free to continue browsing the site for interesting features and functionality.</p>
-<p>Time to production: August 24th to present</p>
+Click <a target="_blank" href="https://github.com/etcadinfinitum/etcadinfinitum.github.io.git">here</a> 
+to view the code. Please feel free to continue browsing the site for interesting features and functionality.<br />
+Time to production: August 24th to present
