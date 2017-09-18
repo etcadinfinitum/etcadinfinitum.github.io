@@ -7,6 +7,6 @@
     -   Written in Java, utilizing the Java Swing API to create user interface<br />
 </p>
     
-<p>Click <a href="https://github.com/etcadinfinitum/minesweeper.git">here</a> to view the code.</p>
-<p>Click <a href="">here</a> to download a desktop version for Windows (JRE 1.7.0 and later).</p>
+<p>Click <a target="_blank" href="https://github.com/etcadinfinitum/minesweeper.git">here</a> to view the code.</p>
+<p>Click <a target="_blank" href="">here</a> to download a desktop version for Windows (JRE 1.7.0 and later).</p>
 <p>Time to production: June 20th, 2017 to August 24th, 2017</p>
