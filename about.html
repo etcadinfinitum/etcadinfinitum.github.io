@@ -28,7 +28,9 @@
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand color-pop-theme" href="">etcadinfinitum</a>
+    <div class="color-pop-theme">
+      <a class="navbar-brand" href="">etcadinfinitum</a>
+    </div>
     </div>
     <ul class="nav navbar-nav">
       <li><a href="index.html">home</a></li>
@@ -40,20 +42,24 @@
 </nav>
 
 
-<div class="row color-pop-theme">
+<div class="row">
+    <div class="container-fluid">
+    <div class="">
     <div class="col-sm-12">
         <h2>About Lizzy</h2>
     </div>
 </div>
 
 <div class="row color-pop-theme">
+<div class="container-fluid">
     <div class="col-sm-12">
         <div class="load-about"></div>
     </div>
 </div>
+</div>
 
 <script>
-    $( "load-about" ).load("/misc/about.txt")
+    $( "load-about" ).load("/misc/about.txt");
 </script>
 
 </body>
