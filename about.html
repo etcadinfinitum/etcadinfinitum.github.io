@@ -31,8 +31,8 @@
       <a class="navbar-brand color-pop-theme" href="">etcadinfinitum</a>
     </div>
     <ul class="nav navbar-nav">
-      <li class="active"><a href="index.html">home</a></li>
-      <li><a href="about.html">about</a></li>
+      <li><a href="index.html">home</a></li>
+      <li class="active"><a href="about.html">about</a></li>
       <li><a href="projects.html">projects</a></li>
       <li><a href="contact.html">contact</a></li>
     </ul>
@@ -43,10 +43,18 @@
 <div class="row color-pop-theme">
     <div class="col-sm-12">
         <h2>About Lizzy</h2>
-        <p></p>
     </div>
 </div>
 
+<div class="row color-pop-theme">
+    <div class="col-sm-12">
+        <div class="load-about"></div>
+    </div>
+</div>
+
+<script>
+    $( "load-about" ).load("/misc/about.txt")
+</script>
 
 </body>
 </html>

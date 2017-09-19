@@ -1,7 +1,8 @@
 <p>Guess what? You're looking at it!<br />
-
-    -   First foray into HTML5, CSS, JavaScript/jQuery, and web applications<br />
-    -   Utilized the Bootstrap library to leverage responsive elements
+<ul>
+    <li>First foray into HTML5, CSS, JavaScript/jQuery, and web applications</li>
+    <li>Utilized the Bootstrap library to leverage responsive elements</li>
+</ul>
 </p>
 Click <a target="_blank" href="https://github.com/etcadinfinitum/etcadinfinitum.github.io.git">here</a> 
 to view the code. Please feel free to continue browsing the site for interesting features and functionality.<br />

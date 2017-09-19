@@ -1,0 +1,10 @@
+<p>Some little-known facts about Lizzy:<br />
+<ul>
+    <li>Her first career aspiration was to be a stegasaurus.</li>
+    <li>Her first foray into higher education was as a music major. She played clarinet and bass clarinet for 
+    10 years, and along the way, she also learned tenor saxophone, piano, and voice. Her favorite composition is 
+    Bach's Six Suites for Cello. She is also a fan of jazz, electronica, noise music, and ambient soundscapes.</li>
+    <li>Her first development project was writing a macro in VBA while in a temp position at DHL. Her work on the project 
+    effectively eliminated her existing position, and garnered a full-time employment offer as an account manager. </li>
+</ul>
+</p>

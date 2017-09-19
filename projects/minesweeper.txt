@@ -1,10 +1,11 @@
 <p>Sometimes, it's important to reinvent the wheel. </p>
 
 <p>This project was notable for the following reasons:<br />
-    -   Implementation of MVC architecture and Observer/Observable design patterns<br />
-    -   Functional user interface<br />
-    -   Implementation of recursive logic for gameplay<br />
-    -   Written in Java, utilizing the Java Swing API to create user interface<br />
+<ul>
+    <li>Implementation of MVC architecture and Observer/Observable design patterns</li>
+    <li>Implementation of recursive logic for gameplay</li>
+    <li>Written in Java, utilizing the Java Swing API to create user interface</li>
+</ul>
 </p>
     
 <p>Click <a target="_blank" href="https://github.com/etcadinfinitum/minesweeper.git">here</a> to view the code.</p>
