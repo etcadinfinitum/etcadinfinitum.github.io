@@ -3,5 +3,5 @@
 <p>You may contact her in any of the following ways:</p>
 Email: <a href="mailto:lizzy.presland@gmail.com">lizzy.presland@gmail.com</a><br />
 Phone: <a href="tel:+19406003540">(940) 600-3540</a><br />
-LinkedIn: <a href="linkedin.com/in/etcadinfinitum">linkedin.com/in/etcadinfinitum</a><br />
+LinkedIn: <a target="_blank" href="http://linkedin.com/in/etcadinfinitum">linkedin.com/in/etcadinfinitum</a><br />
 
