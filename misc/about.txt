@@ -1,3 +1,21 @@
+<p>Thank you for stopping by to learn a little bit more about Lizzy Presland, the mastermind behind this little corner of the World Wide Web.</p>
+<p>Lizzy is a software engineer who strives to marry aesthetics and functionality for the Every (wo)Man. 
+Before she embarked on the strange and wonderful journey into software design and mechanics, she spent several
+ (too many) years experiencing enterprise software as a non-technical user in a variety of roles, including project 
+management, accounting & finance, and customer service. As a result of her early experiences as a white-collar 
+corporate drone, she admires platforms with multi-disciplinary approaches to UX design. </p>
+<p>As a budding SWE, Lizzy hopes to bring intuitive, elegant, and customizable user experiences to enterprise systems,
+ and to make data-driven intelligence more accessible to non-technical users. She is particularly fascinated by 
+emerging machine learning techniques that can and will enable people to make critically important decisions. In this 
+ever-changing world, resource management is becoming more crucial than ever to the success of the global community. 
+Lizzy hopes her contributions in the field will help humanity face the daunting challenges ahead with respect to 
+climate change and challenges in health care access and optimization for an ever-growing population.</p>
+<p>Lizzy's goals and interests may be lofty, but her immediate pursuits are quite concrete. She is currently 
+completing college credits as a pre-cursor to pursing a Bachelors Degree in Computer Science, and will be starting 
+her junior-level coursework in Fall 2018. In the meantime, her extra-curricular pursuits in the CS realm have 
+primarily revolved around mastering data structures and implementing algorithms to create functional user-friendly 
+games and utilities. Please visit her <a href="../projects.html">projects</a> page to learn more about her previous 
+work, and feel free to browse her <a href="../whatsnext.html">WIP</a> informatijon page.</p>
 <p>Some little-known facts about Lizzy:<br />
 <ul>
     <li>Her first career aspiration was to be a stegasaurus.</li>
