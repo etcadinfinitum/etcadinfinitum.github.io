@@ -1,4 +1,4 @@
-<p>Guess what? You're looking at it!<br />
+<p>"Better is the enemy of good."<br />
 <ul>
     <li>First foray into HTML5, CSS, JavaScript/jQuery, and web applications</li>
     <li>Utilized the Bootstrap library to leverage responsive elements</li>
@@ -6,4 +6,4 @@
 </p>
 Click <a target="_blank" href="https://github.com/etcadinfinitum/etcadinfinitum.github.io.git">here</a> 
 to view the code. Please feel free to continue browsing the site for interesting features and functionality.<br />
-Time to production: August 24th to present
+Time to production: September 17th, 2017 to present
