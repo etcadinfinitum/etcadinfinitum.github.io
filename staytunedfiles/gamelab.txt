@@ -1,0 +1,13 @@
+<h3>GameLab Beta (for Android)</h3>
+<p>Lizzy is excited to build a prototype application for the Android OS!</p>
+<ul>
+    <li>Back-end logic to be written in Java</li>
+    <li>Goal of releasing a library of classic arcade-style games, including Minesweeper (already written), Tetris (in development), and a third 
+    game (not yet decided).</li>
+    <li>Explore UI design for Android, with special attention paid to intuitive gestures in the mobile platform</li>
+</ul>
+<p>Toolkit:<br />
+<ul>
+    <li>Android Studio</li>
+    <li>Vim for editing, Codenvy for testing</li>
+</ul> 

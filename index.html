@@ -73,5 +73,26 @@
 
 <!-- some content here -->
 
+<div class="row">
+    <div class="container-fluid">
+	<div class="col-sm-12 color-pop-theme">Works In Progress</div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="container-fluid">
+	<div class="col-sm-4 medium-dark-theme" id="microcontroller"></div>
+	<div class="col-sm-4 medium-dark-theme" id="game-lab"></div>
+	<div class="col-sm-4 medium-dark-theme" id="pytorch"></div>
+    </div>
+</div>
+
+<script>
+    $( #microcontroller).load("/staytunedfiles/microcontrollers.txt");
+    $( #game-lab ).load("/staytunedfiles/gamelab.txt");
+    $( #pytorch ).load("/staytunedfiles/learning.txt");
+</script>
+
+
 </body>
 </html>

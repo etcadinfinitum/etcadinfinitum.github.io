@@ -1,0 +1,16 @@
+<h3>Fun with microcontrollers!</h3>
+
+<p>Lizzy is excited to start exploring the all-important concepts of memory management and hardware.</p>
+<ul>
+    <li>Rigging a lighting scheme in hardware</li>
+    <li>Writing code in C to perform tasks on hardware</li>
+    <li>Implementing these skills in a self-contained project</li>
+</ul>
+<p>Toolkit:<br />
+<ul>
+    <li><a href="http://www.amazon.com//Make-Electronics-Learning-Through-Discovery/dp/1680450263/ref=sr_1_1?ie=UTF8&qid=1506294572&sr=8-1&keywords=make+electronics" target="_blank">Make: Electronics</a></li>
+    <li><a href="https://www.microchipdirect.com//productsearch.aspx?Keywords=DM164137" target="_blank">Curiosity Development Board</a></li>
+    <li>Presumably, a number of other tools I have not thought of yet.</li>
+</ul>
+</p>
+
