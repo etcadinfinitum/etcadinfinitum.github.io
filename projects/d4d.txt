@@ -1,0 +1,8 @@
+<p>Let's build something amazing for the public good!</p>
+<p>This is a relatively new (ad)venture, but the potential impact is absolutely thrilling. 
+Lizzy intends to focus on the <a href="http://http://datafordemocracy.org/projects/drug-spending.html" 
+target="_blank">prescription spending</a> project, since her background in ancillary testing services 
+and the financial burden upon patients for non-essential services provides some context of the significance 
+of the potential impact of well-examined data sets in this field.</p>
+<p>Lizzy can be found at the <a href="https://www.meetup.com/Data-for-Democracy-Seattle/" 
+target="_blank">Seattle</a> meetups. Check in regularly for cool updates on progress and accomplishments!</p>

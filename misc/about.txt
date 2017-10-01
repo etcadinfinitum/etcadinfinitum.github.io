@@ -15,13 +15,13 @@ completing college credits as a pre-cursor to pursing a Bachelors Degree in Comp
 her junior-level coursework in Fall 2018. In the meantime, her extra-curricular pursuits in the CS realm have 
 primarily revolved around mastering data structures and implementing algorithms to create functional user-friendly 
 games and utilities. Please visit her <a href="../projects.html">projects</a> page to learn more about her previous 
-work, and feel free to browse her <a href="../whatsnext.html">WIP</a> informatijon page.</p>
+work, and feel free to browse her <a href="../index.html#WIP">WIP</a> information page.</p>
 <p>Some little-known facts about Lizzy:<br />
 <ul>
     <li>Her first career aspiration was to be a stegasaurus.</li>
     <li>Her first foray into higher education was as a music major. She played clarinet and bass clarinet for 
-    10 years, and along the way, she also learned tenor saxophone, piano, and voice. Her favorite composition is 
-    Bach's Six Suites for Cello. She is also a fan of jazz, electronica, noise music, and ambient soundscapes.</li>
+    10 years, and along the way, she also learned tenor saxophone, piano, and voice. Her favorite classical composition is 
+    Bach's Six Suites for Cello. She is also a fan of jazz, IDM & select electronica, noise music, and ambient soundscapes.</li>
     <li>Her first development project was writing a macro in VBA while in a temp position at DHL. Her work on the project 
     effectively eliminated her existing position, and garnered a full-time employment offer as an account manager. </li>
 </ul>
