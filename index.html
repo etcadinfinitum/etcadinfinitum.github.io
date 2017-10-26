@@ -31,9 +31,10 @@
             padding: 20px;
         }
 
-	img {
-	   object-fit: cover;
-	}
+        .borderimg {
+            object-fit: cover;
+            overflow: hidden;
+        }
 
 	a:link {
 	    color: snow;
@@ -80,14 +81,14 @@
 <div class="row">
     <div class="container-fluid">
 	<div class="col-sm-2 col-xs-2 d-flex align-self-stretch">
-	    <img src="/misc/jumbotron-border-h1-compressed.jpg" alt="Pink border half 1">
+	    <img class="borderimg" src="/misc/jumbotron-border-h1-compressed.jpg" alt="Pink border half 1">
 	</div>
 	<div class="col-sm-8 col-xs-8 color-pop-theme d-flex">
 	    <h1>Welcome to etc ad infinitum!</h1>
 	    <p>This is the portfolio website for Lizzy Presland and her various pursuits.</p>
 	</div>
 	<div class="col-sm-2 col-xs-2 d-flex align-self-stretch">
-	    <img src="/misc/jumbotron-border-h2-compressed.jpg" alt="Pink border half 2">
+	    <img class="borderimg" src="/misc/jumbotron-border-h2-compressed.jpg" alt="Pink border half 2">
 	</div>
     </div>
 </div>
