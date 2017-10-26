@@ -31,8 +31,8 @@
             padding: 20px;
         }
 
-        .borderimg {
-            object-fit: cover;
+        .borderimg img {
+            object-fit: contain;
             overflow: hidden;
         }
 
@@ -78,16 +78,16 @@
 
 <!-- some content here -->
 
-<div class="row">
+<div class="row d-flex align-items-stretch">
     <div class="container-fluid">
-	<div class="col-2 d-flex align-self-stretch">
+	<div class="col-xs-2 d-flex">
 	    <img class="borderimg" src="/misc/jumbotron-border-h1-compressed.jpg" alt="Pink border half 1">
 	</div>
-	<div class="col-8 color-pop-theme d-flex">
+	<div class="col-xs-8 color-pop-theme d-flex">
 	    <h1>Welcome to etc ad infinitum!</h1>
 	    <p>This is the portfolio website for Lizzy Presland and her various pursuits.</p>
 	</div>
-	<div class="col-2 d-flex align-self-stretch">
+	<div class="col-xs-2 d-flex">
 	    <img class="borderimg" src="/misc/jumbotron-border-h2-compressed.jpg" alt="Pink border half 2">
 	</div>
     </div>
