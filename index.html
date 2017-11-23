@@ -31,32 +31,54 @@
             padding: 20px;
         }
 
-        .border {
-            overflow: hidden;
-        }
+        .left-border {
+					background: url(/misc/jumbotron-border-h1-compressed.jpg);
+					background-size: cover;
+					overflow: hidden;
+				}
 
-        .cover {
-            object-fit: cover;
-        }
-	a:link {
-	    color: snow;
-	    text-decoration: underline;
-	}
+				.right-border {
+					background: url(/misc/jumbotron-border-h2-compressed.jpg);
+					background-size: cover;
+					overflow: hidden;
+				}
+			
+				.jumborow {
+					display: -webkit-box;
+					display: -webkit-flex;
+					display: -ms-flexbox;
+					display:         flex;
+					flex-wrap: wrap;
+				}
+				
+				jumborow > [class*='col-'] {
+					display: flex;
+					flex-direction: column;
+				}
+				
+				.top-buffer {
+					margin-top: 20px;
+				}
 
-	a:visited {
-	    color: lightgray;
-	    font-style: italic;
-	}
+			  a:link {
+					color: snow;
+					text-decoration: underline;
+				}
 
-	a:hover {
-	    color: deeppink;
-	    text-decoration: underline;
-	}
+				a:visited {
+					color: lightgray;
+					font-style: italic;
+				}
 
-	a:active {
-	    color: deeppink;
-	    font-style: italic;
-	}
+				a:hover {
+					color: deeppink;
+					text-decoration: underline;
+				}
+
+				a:active {
+					color: deeppink;
+					font-style: italic;
+				}
 
     </style>
     <body style="background-image:url(/misc/leaves-min.jpg); background-size:cover">
@@ -80,23 +102,25 @@
 
 <!-- some content here -->
 <div class="container-fluid">
-    <div class="row d-flex align-items-stretch no-gutters">
-	<div class="col-xs-2 d-flex border">
-	    <img class="img-responsive cover" src="/misc/jumbotron-border-h1-compressed.jpg" alt="Pink border half 1">
-	</div>
-	<div class="col-xs-8 color-pop-theme d-flex">
-	    <h1>Welcome to etc ad infinitum!</h1>
-	    <p>This is the portfolio website for Lizzy Presland and her various pursuits.</p>
-	</div>
-	<div class="col-xs-2 d-flex border">
-	    <img class="img-responsive cover" src="/misc/jumbotron-border-h2-compressed.jpg" alt="Pink border half 2">
-	</div>
+    <div class="row d-flex align-items-stretch no-gutters jumborow">
+				<div class="col-xs-2 left-border">
+	  		 <!-- <img class="img-responsive cover" src="/misc/jumbotron-border-h1-compressed.jpg" alt="Pink border half 1"> -->
+				</div>
+				<div class="col-xs-8 color-pop-theme d-flex">
+	    		<h2>Welcome to etcadinfinitum!</h2>
+	    		<p>This is the portfolio website for Lizzy Presland and her various pursuits.</p>
+				</div>
+				<div class="col-xs-2 right-border">
+	    		<!-- <img class="img-responsive cover" src="/misc/jumbotron-border-h2-compressed.jpg" alt="Pink border half 2"> -->
+				</div>
     </div>
 </div>
 
-<div id="WIP" class="row">
+
+
+<div id="WIP" class="row top-buffer">
     <div class="container-fluid">
-	<div class="col-sm-12 color-pop-theme">
+				<div class="col-sm-12 color-pop-theme">
             <h3>Upcoming Undertakings</h3>
         </div>
     </div>
@@ -104,9 +128,9 @@
 
 <div class="row">
     <div class="container-fluid">
-	<div class="col-sm-4 medium-dark-theme" id="microcontroller"></div>
-	<div class="col-sm-4 medium-dark-theme" id="game-lab"></div>
-	<div class="col-sm-4 medium-dark-theme" id="pytorch"></div>
+				<div class="col-sm-4 medium-dark-theme" id="microcontroller"></div>
+				<div class="col-sm-4 medium-dark-theme" id="game-lab"></div>
+				<div class="col-sm-4 medium-dark-theme" id="pytorch"></div>
     </div>
 </div>
 
