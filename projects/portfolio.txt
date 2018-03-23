@@ -6,4 +6,4 @@
 </p>
 Click <a target="_blank" href="https://github.com/etcadinfinitum/etcadinfinitum.github.io.git">here</a> 
 to view the code. Please feel free to continue browsing the site for interesting features and functionality.<br />
-Time to production: September 17th, 2017 to present
+Time to production: September to October 2017, with periodic updates 
