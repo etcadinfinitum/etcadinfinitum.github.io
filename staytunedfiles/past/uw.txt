@@ -1,5 +1,4 @@
-<h3>Application Deadlines for UW & Other Institutions Are Upon Us!</h3>
-<p>The deadlines for applications to the University of Washington (Seattle & Bothell campuses) are approaching fast, and many 
-hours have been spent trying to wring a great essay out of a blinking cursor. I am giddily anticipating the high quality of curriculum, 
-opportunity for collaboration on research and capstone projects, and being in great company at a reputable institution. Thankfully, my excitement far outweighs 
-the stress induced by wondering if I'll get admitted. 
+<h3>I'm a Husky now!</h3>
+<p>After much deliberation, I accepted with delight an admission offer to University of Washington Bothell as an incoming Computer Science & Software Engineering major. I am thrilled to be in company with amazing and dedicated professors and reserachers, and I can't wait to get involved with the <a target="_blank" href="https://www.uwb.edu/innovation/collaboratory">on-campus makerspace</a>, UWB's ACM <a target="_blank" href="https://uwbacm.com/">chapter</a>, the campus <a target="_blank" href="https://grayhats.io/">cybersecurity club</a>, and everything else the school has to offer.
+</p>
+<p>So proud to be a Husky!</p>
