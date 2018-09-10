@@ -15,7 +15,7 @@ completing college credits as a pre-cursor to pursing a Bachelors Degree in Comp
 her junior-level coursework in Fall 2018. In the meantime, her extra-curricular pursuits in the CS realm have 
 primarily revolved around mastering data structures and implementing algorithms to create functional user-friendly 
 games and utilities. Please visit her <a href="../projects.html">projects</a> page to learn more about her previous 
-work, and feel free to browse her <a href="../index.html#WIP">WIP</a> information page.</p>
+work, and take a look at the recent highlights page <a href="http://etcadinfinitum.github.io/index.html#recentnews">here</a>.</p>
 <p>Some little-known facts about Lizzy:<br />
 <ul>
     <li>Her first career aspiration was to be a stegasaurus.</li>
