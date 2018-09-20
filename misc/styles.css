@@ -15,16 +15,10 @@ body {
 }
 
 .navbar-inverse .navbar-brand {
-    background-color: #080808;
     color: #88D317;
     text-decoration: none;
     font-style: none;
-}
-
-.navbar-inverse .navbar-brand:hover, 
-.navbar-inverse .navbar-brand:focus {
-    background-color: transparent;
-    color: #999999;
+    !important;
 }
 
 .navbar-inverse .navbar-nav >li >a {
@@ -53,13 +47,13 @@ a:active {
 }
 
 .left-border {
-    background: url(/misc/jumbotron-border-h1-compressed.jpg);
+    background: url(/misc/fern-2.jpg);
     background-size: cover;
     overflow: hidden;
 }
 
 .right-border {
-    background: url(/misc/jumbotron-border-h2-compressed.jpg);
+    background: url(/misc/fern.jpg);
     background-size: cover;
     overflow: hidden;
 }
