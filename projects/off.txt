@@ -1,0 +1,6 @@
+<p>My first open source software contributions are on the books!</p>
+<p>I worked on the codebase for Open Food Facts' Android application. Even though my contributions were small, I hope it is the 
+beginning of a long and fruitful relationship with the open-source community.</p>
+<p>Learn more about Open Food Facts <a target="_blank" href="https://world.openfoodfacts.org/">here</a> and their native version of 
+OFF for Android <a target="_blank" href="https://github.com/openfoodfacts/openfoodfacts-androidapp">here</a>. My contributions can be 
+seen <a target="_blank" href="https://github.com/openfoodfacts/openfoodfacts-androidapp/commits?author=etcadinfinitum">here</a>.</p>

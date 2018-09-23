@@ -1,5 +1,0 @@
-<h3>Collaboration on Lantern application with No School Violence, beginning January 2018</h3>
-<p>I am excited to be working with the volunteers and leaders behind the <a href="https://www.noschoolviolence.org/">No School Violence</a> campaign. 
-We are working on building a web application for K-12 use cases, and part of the organization's mission is to harness the wealth of data on school violence 
-and build better predictive models and intervention services for parents, educators, and health professionals. If you want to know more about the project, 
-feel free to peruse the website or contact me directly.</p>
