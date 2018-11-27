@@ -74,3 +74,25 @@ jumborow > [class*='col-'] {
 .top-buffer {
     margin-top: 20px;
 }
+
+.hideaway {
+    display: none;
+}
+
+.fun-button {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: #080808;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.fun-button:hover {
+    background-color: #ddd;
+}
+
+.fun-button.active {
+    background-color: #88D317;
+    color: black;
+}

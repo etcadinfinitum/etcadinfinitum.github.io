@@ -9,6 +9,7 @@
     <link rel="icon" href="/misc/favicon.ico" type="image/x-icon" sizes="16x16 32x32">
 		<script src="./misc/jquery.js"></script>
     <script src="./misc/bootstrap.js"></script>
+    <script src="./scripts/filter.js"></script>
 </head>
 <body>
 
@@ -36,8 +37,50 @@
 </div>
 --->
 
-
 <div class="row">
+    <div class="container-fluid">
+        <div class="col-sm-4 color-pop-theme">
+            <h2>
+            Filters
+            </h2>
+            <h5>
+            Filter projects and experience by category. Multiple filters are interpreted as a logical "or".
+            </h5>
+        </div>
+        <div class="col-sm-8 medium-dark-theme">
+            <div class="row">
+                Setting:
+                <button id="professional" class="fun-button" onClick="filterDivs('professional')">
+                    Professional
+                </button>
+                <button id="academic" class="fun-button" onClick="filterDivs('academic')">
+                    Academic
+                </button>
+                <button id="outreach" class="fun-button" onClick="filterDivs('outreach')">
+                    Outreach
+                </button>
+            </div>
+            <div class="row top-buffer">
+                Programming Language:
+                <button id="python" class="fun-button" onClick="filterDivs('python')">
+                    Python
+                </button>
+                <button id="java" class="fun-button" onClick="filterDivs('java')">
+                    Java
+                </button>
+                <button id="web" class="fun-button" onClick="filterDivs('web')">
+                    Web Markup & Scripting
+                </button>
+                <button id="cpp" class="fun-button" onClick="filterDivs('cpp')">
+                    C++
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="filterContent python professional">
+<div class="row top-buffer">
     <div class="container-fluid">
     <div class="col-sm-4 color-pop-theme">
         <h2>Software Engineering Internship</h2>
@@ -47,8 +90,9 @@
     <div class="col-sm-8 medium-dark-theme" id="abc"></div>
     </div>
 </div>
+</div>
 
-
+<div class="filterContent python academic">
 <div class="row top-buffer">
     <div class="container-fluid">
     <div class="col-sm-4 color-pop-theme">
@@ -59,7 +103,9 @@
     <div class="col-sm-8 medium-dark-theme" id="grayhats-flask"></div>
     </div>
 </div>
+</div>
 
+<div class="filterContent academic outreach">
 <div class="row top-buffer" id="makerfaire2018">
     <div class="container-fluid">
         <div class="col-sm-4 color-pop-theme">
@@ -131,7 +177,9 @@
         </div>
     </div>
 </div>
+</div>
 
+<div class="filterContent python">
 <div class="row top-buffer">
     <div class="container-fluid">
     <div class="col-sm-4 color-pop-theme">
@@ -146,7 +194,9 @@
     </div>
     </div>
 </div>
+</div>
 
+<div class="filterContent java professional">
 <div class="row top-buffer">
     <div class="container-fluid">
     <div class="col-sm-4 color-pop-theme">
@@ -156,8 +206,9 @@
     <div class="col-sm-8 medium-dark-theme" id="off"></div>
     </div>
 </div>
+</div>
 
-
+<div class="filterContent web">
 <div class="row top-buffer">
     <div class="container-fluid">
     <div class="col-sm-4 color-pop-theme">
@@ -167,8 +218,9 @@
     <div class="col-sm-8 medium-dark-theme" id="portfolio-web"></div>
     </div>
 </div>
+</div>
 
-
+<div class="filterContent java">
 <div class="row top-buffer">
     <div class="container-fluid">
     <div class="col-sm-4 color-pop-theme">
@@ -176,6 +228,7 @@
     </div>
     <div class="col-sm-8 medium-dark-theme" id="minesweeper"></div>
     </div>
+</div>
 </div>
 
 <script>
