@@ -8,5 +8,4 @@
 </p>
     
 <p>Click <a target="_blank" href="https://github.com/etcadinfinitum/minesweeper.git">here</a> to view the code.</p>
-<p>Click <a href="../misc/Minesweeper-v1.exe" download>here</a> to download a desktop version for Windows (JRE 1.7.0 and later).</p>
-<p>Time to production: June 20th, 2017 to August 24th, 2017</p>
+<p>Click <a target="_blank" href="https://github.com/etcadinfinitum/minesweeper/releases">here</a> to get a release, including a Windows executable and a tarball with make & run scripts for Linux.</p>
