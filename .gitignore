@@ -1,0 +1,9 @@
+# no jekyll business
+_site
+.sass-cache
+.jekyll-metadata
+Gemfile
+Gemfile.lock
+_posts
+_config.yml
+.*.swp
