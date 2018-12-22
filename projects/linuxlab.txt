@@ -1,0 +1,33 @@
+<p>I work in UW Bothell’s CSS IT department as a Linux Lab technician. </p>
+
+<p>
+My job description could be interpreted as simple maintenance, but the team I work on is given the opportunity to find elegant solutions that improve the services provided by the lab. 
+To that end, I create solutions and diagnostic tools to the I work hard to understand the benefits and limitations of the lab’s infrastructure.
+</p>
+
+<p>
+Things I have accomplished since being hired (as of December 2018):
+<ul>
+    <li>
+    Creating Ansible routines to automate software deployment and printer management.
+    </li
+    <li>
+    Establishing reliable file system mounts to UW’s Active Directory server using sshfs, and creating the deployment routines to accomplish this.
+    </li>
+    <li>
+    Configuring a virtual machine to be a NFS server for special-purpose use.
+    </li>
+    <li>
+    Working directly with faculty and students to diagnose and resolve machine problems.
+    </li>
+    <li>
+    Writing informative and thorough documentation of all aspects of the lab configuration I have encountered.
+    </li>
+    <li>
+    Learning a ton about file systems (disk and remote), bash, and useful UNIX commands.
+    </li>
+    <li>
+    Embracing my ability to learn independently and apply the knowledge to the task at hand.
+    </li>
+</ul>
+</p>
