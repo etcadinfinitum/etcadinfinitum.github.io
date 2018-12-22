@@ -5,8 +5,8 @@ var tagDict = { 'python': 'Python',
     'professional': 'Professional',
     'academic': 'Academic',
     'outreach': 'Outreach',
-    'oss': 'Open Source'
-    'bash': 'Linux/UNIX'
+    'oss': 'Open Source',
+    'bash': 'Linux/UNIX',
 }
 
 function generateTags() {
