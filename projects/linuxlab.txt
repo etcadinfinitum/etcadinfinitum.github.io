@@ -2,7 +2,7 @@
 
 <p>
 My job description could be interpreted as simple maintenance, but the team I work on is given the opportunity to find elegant solutions that improve the services provided by the lab. 
-To that end, I create solutions and diagnostic tools to the I work hard to understand the benefits and limitations of the lab’s infrastructure.
+To that end, I create solutions and diagnostic tools for the current configuration of our machines, and I work hard to understand the benefits and limitations of the lab’s infrastructure.
 </p>
 
 <p>
@@ -10,7 +10,7 @@ Things I have accomplished since being hired (as of December 2018):
 <ul>
     <li>
     Creating Ansible routines to automate software deployment and printer management.
-    </li
+    </li>
     <li>
     Establishing reliable file system mounts to UW’s Active Directory server using sshfs, and creating the deployment routines to accomplish this.
     </li>
