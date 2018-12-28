@@ -1,7 +1,7 @@
 <p>
 My cohorts at UW Bothell use Discord frequently, and I got inspired to create a Discord bot that modulates images from users. 
 </p>
-<p>The result of my work is the DeepPhryBot. Some example output is shown in the image gallery below. The code is available <a href="https://www.github.com/etcadinfinitum/DiscordDeepPhryer" target="_blank">on GitHub</a> and is an active project. A public instance of the bot is available for your Discord server <a href="" target="_blank">here</a>, and you can create your own instance (as described in the <a href="https://github.com/etcadinfinitum/DiscordDeepPhryer/blob/master/README.md" target="_blank">project's README</a>).
+<p>The result of my work is the DeepPhryBot. Some example output is shown in the image gallery below. The code is available <a href="https://www.github.com/etcadinfinitum/DiscordDeepPhryer" target="_blank">on GitHub</a> and is an active project. A public instance of the bot is available for your Discord server <a href="https://discordapp.com/oauth2/authorize?client_id=521562757787811841&scope=bot&permissions=100416" target="_blank">here</a>, and you can create your own instance (as described in the <a href="https://github.com/etcadinfinitum/DiscordDeepPhryer/blob/master/README.md" target="_blank">project's README</a>).
 </p>
 <p>It was really fun to put this into production and get feedback from users. I have some ideas to improve existing functionality and support user feedback on image modulation presets; I look forward to seeing this project grow.
 </p>
