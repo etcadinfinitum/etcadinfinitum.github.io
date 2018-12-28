@@ -102,3 +102,8 @@ jumborow > [class*='col-'] {
     background-color: #88D317;
     color: #080808;
 }
+
+.columns {
+    float: left;
+    width: 25%;
+}
