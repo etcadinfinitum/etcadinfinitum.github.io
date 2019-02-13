@@ -1,0 +1,12 @@
+<p>In December 2018, I was offered a position as an officer of the
+<a target="_blank" href="https://uwbacm.com/">UW Bothell chapter</a> of the Association for Computing Machinery (ACM).</p>
+<p>The UWB chapter organizes events and workshops to promote professional and technical development for computer scientists. Working with my fellow officers has been a wonderful experience, and I look forward to continuing to contribute to the growth of UWB's students, the school, and ACM as a whole.</p>
+<p>I am still in the early stages of officer onboarding, but thus far, my contributions include:</p>
+<ul>
+    <li>Organizing and facilitating an introductory Linux workshop for students.</li>
+    <li>Leading the weekly Cracking the Coding Interview workshop, with the primary goal of preparing current students for technical interviews at major software companies.
+    </li>
+    <li>Creating content and facilitating logistical needs for the ACM chapter's annual hackathon.</li>
+</ul>
+<p>More updates and anecdotes will be available soon; in particular, my colleagues and I are very excited to host the annual UWB Hacks hackathon in April 2019. Information about last year's hackathon is available <a target="_blank" href="https://www.uwb.edu/news/june-2018/hackathon">on UWB's website</a>.</p>
+<p><strong>The CTCI workshop was recently featured on UW Bothell's home page! Read more about the CTCI workshop and ACM's mission <a target="_blank" href="https://www.uwb.edu/news/january-2019/computing-club">here</a>.</strong></p>
