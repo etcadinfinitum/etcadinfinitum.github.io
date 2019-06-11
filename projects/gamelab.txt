@@ -1,0 +1,12 @@
+<p>In Spring 2018, I decided to build an Android application. I wanted to sharpen my skills in Java, create a large and robust application for the general public, and explore design patterns for mobile development. The end result of this project was released in January 2019 under the title GameLab; <a target="_blank" href="https://play.google.com/store/apps/details?id=experiment.gamelab">it is available for download on Google Play</a>.
+</p>
+<p>Skills learned and takeaways:</p>
+<ul>
+    <li><strong>Reverse-engineering processes.</strong> <br>It was a joy to recreate the gameplay and logical structure for well-known puzzle and logic games.</li>
+    <li><strong>Learning to love an IDE.</strong> <br>I exclusively use Vim for all other projects, but this application was built in Android Studio. The project has given me a newfound appreciation for IDEs that simplify development and manage the build process for complex applications.</li>
+    <li><strong>Efficiently managing a large-scale, long-term project.</strong> <br>I primarily used GitHub issues to track the project's errors and desired enhancements, especially over the 8-month period I spent working on the project. Documenting the project's state throughout the development cycle proved invaluable for context switching.</li>
+    <li><strong>Generating a deliverable for an official release.</strong> <br>Prior to this project, I had never formally released software to the general public.</li>
+    <li><strong>Facilitating open-source collaboration.</strong> <br>During the development of this application, I received an unsolicited contribution from a GitHub member, which was the most exciting thing that happened during this project! I hope that future personal projects will continue to engage other developers.</li>
+</ul>
+
+<p>The next endeavor for this project will be to release the application for F-Droid. Who knows, maybe v2.0 will feature new games!</p>
