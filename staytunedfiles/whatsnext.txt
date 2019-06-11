@@ -1,0 +1,8 @@
+<h3>Current Projects</h3>
+<p>Some of these endeavors are personal projects, and some are academic. All of them are on GitHub.</p>
+<ul>
+    <li>As a research team member of the UW Bothell biocomputing laboratory, I am working on refactoring parts of <a href="https://github.com/UWB-Biocomputing/BrainGrid" target="_blank">a neural growth simulator</a>.</li>
+    <li>I have been tinkering with a project to create self-organizing systems, and hope to explore this further as part of my undergraduate capstone. The repository is <a href="https://github.com/etcadinfinitum/SelfAssembly" target="_blank">here</a>, and will be under development starting Summer 2019.</li>
+    <li>A friend recommended exploring gera's <a href="https://github.com/etcadinfinitum/InsecureProgramming" target="_blank">insecure programming</a> problem set, and it is engrossing.</li>
+    <li>Occasional hobby projects with friends, viewable on GitHub or <a href="https://git.callpipe.com/lizzy" target="_blank">GitLab</a>.</li>
+</ul>
