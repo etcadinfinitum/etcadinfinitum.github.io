@@ -1,28 +1,15 @@
-<p>Thank you for stopping by to learn a little bit more about Lizzy Presland, the mastermind behind this little corner of the World Wide Web.</p>
-<p>Lizzy is a software engineer who strives to marry aesthetics and functionality for the Every (wo)Man. 
-Before she embarked on the strange and wonderful journey into software design and mechanics, she spent several
- (too many) years experiencing enterprise software as a non-technical user in a variety of roles, including project 
-management, accounting & finance, and customer service. As a result of her early experiences as a white-collar 
-corporate drone, she admires platforms with multi-disciplinary approaches to UX design. </p>
-<p>As a budding SWE, Lizzy hopes to bring intuitive, elegant, and customizable user experiences to enterprise systems,
- and to make data-driven intelligence more accessible to non-technical users. She is particularly fascinated by 
-emerging machine learning techniques that can and will enable people to make critically important decisions. In this 
-ever-changing world, resource management is becoming more crucial than ever to the success of the global community. 
-Lizzy hopes her contributions in the field will help humanity face the daunting challenges ahead with respect to 
-climate change and challenges in health care access and optimization for an ever-growing population.</p>
-<p>Lizzy's goals and interests may be lofty, but her immediate pursuits are quite concrete. She is currently 
-completing college credits as a pre-cursor to pursing a Bachelors Degree in Computer Science, and will be starting 
-her junior-level coursework in Fall 2018. In the meantime, her extra-curricular pursuits in the CS realm have 
-primarily revolved around mastering data structures and implementing algorithms to create functional user-friendly 
-games and utilities. Please visit her <a href="../projects.html">projects</a> page to learn more about her previous 
-work, and take a look at the recent highlights page <a href="http://etcadinfinitum.github.io/index.html#recentnews">here</a>.</p>
+<p>Thank you for stopping by to learn a little bit more about Lizzy, the mastermind behind this little corner of the World Wide Web.</p>
 <p>Some little-known facts about Lizzy:<br />
 <ul>
-    <li>Her first career aspiration was to be a stegasaurus.</li>
-    <li>Her first foray into higher education was as a music major. She played clarinet and bass clarinet for 
-    10 years, and along the way, she also learned tenor saxophone, piano, and voice. Her favorite classical composition is 
-    Bach's Six Suites for Cello. She is also a fan of jazz, IDM & select electronica, noise music, and ambient soundscapes.</li>
-    <li>Her first development project was writing a macro in VBA while in a temp position at DHL. Her work on the project 
-    effectively eliminated her existing position, and garnered a full-time employment offer as an account manager. </li>
+    <li>First career aspiration: a stegasaurus.</li>
+    <li>First foray into higher education: music major. Their main instruments were clarinet and bass clarinet, and they learned tenor saxophone, piano, and voice along the way.
+    <li>First development project: a macro in VBA in 2014.</li>
+    <li>Current favorite languages: C++ and Python.</li>
+    <li>Wants to learn:</li>
+        <ul>
+            <li>Rust</li>
+            <li>Go</li>
+            <li>Lead climbing</li>
+        </ul>
 </ul>
 </p>
