@@ -1,4 +1,0 @@
-<h3>I'm a Husky now!</h3>
-<p>After much deliberation, I accepted with delight an admission offer to University of Washington Bothell as an incoming Computer Science & Software Engineering major. I am thrilled to be in company with amazing and dedicated professors and reserachers, and I can't wait to get involved with the <a target="_blank" href="https://www.uwb.edu/innovation/collaboratory">on-campus makerspace</a>, UWB's ACM <a target="_blank" href="https://uwbacm.com/">chapter</a>, the campus <a target="_blank" href="https://grayhats.io/">cybersecurity club</a>, and everything else the school has to offer.
-</p>
-<p>So proud to be a Husky!</p>
