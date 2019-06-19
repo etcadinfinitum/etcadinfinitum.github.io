@@ -1,326 +1,276 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title>projects:etcadinfinitum</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  	<link rel="stylesheet" href="./misc/styles.css">
-    <link rel="icon" href="/misc/favicon.ico" type="image/x-icon" sizes="16x16 32x32">
-		<script src="./misc/jquery.js"></script>
-    <script src="./misc/bootstrap.js"></script>
-    <script src="./scripts/filter.js"></script>
-    <script src="./scripts/tags.js"></script>
-</head>
-<body onload="javascript:generateTags();">
+<html lang="en">
+    <head>
+        <title>home:etcadinfinitum</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="./styles.css">
+        <link rel="icon" href="/images/favicon.ico" type="image/x-icon" sizes="16x16 32x32">
+        <script src="./scripts/jquery.js"></script>
+        <script src="./scripts/bootstrap.js"></script>
+        <script src="./scripts/filter.js"></script>
+        <script src="./scripts/tags.js"></script>
+    </head>
+    <body onload="javascript:generateTags();">
+        <nav class="navbar navbar-inverse">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsible-nav" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">etcadinfinitum</a>
+            </div>
+            <div class="collapse navbar-collapse" id="collapsible-nav">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="projects.html">projects</a></li>
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="resume.html">resume</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                </ul>
+            </div>
+        </nav>
 
-<nav class="navbar navbar-inverse">
-    <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsible-nav" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand">etcadinfinitum</a>
-    </div>
-    <div class="collapse navbar-collapse" id="collapsible-nav">
-    <ul class="nav navbar-nav">
-      <li><a href="index.html">home</a></li>
-      <li><a href="about.html">about</a></li>
-      <li class="active"><a href="projects.html">projects</a></li>
-      <li><a href="resume.html">resume</a></li>
-      <li><a href="contact.html">contact</a></li>
-    </ul>
-    </div>
-</nav>
-
-<div class="container-fluid">
-
-<!---
-<div class="jumbotron color-pop-theme"> 
-    <h3>Welcome to the projects section!</h3>
-    <p>This is where anything worth talking about goes.</p>
-</div>
---->
-
-<div class="row">
-        <div class="col-sm-4 color-pop-theme">
-            <h2>
-            Filters
-            </h2>
-            <h5>
-            Filter projects and experience by category. Multiple filters are interpreted as a logical "or".
-            </h5>
-        </div>
-        <div class="col-sm-8 medium-dark-theme">
+        <div class="container-fluid">
             <div class="row">
-                Setting:
-                <button id="professional" class="fun-button" onClick="filterDivs('professional')">
-                    Professional
-                </button>
-                <button id="academic" class="fun-button" onClick="filterDivs('academic')">
-                    Academic
-                </button>
-                <button id="outreach" class="fun-button" onClick="filterDivs('outreach')">
-                    Outreach
-                </button>
-                <button id="oss" class="fun-button" onClick="filterDivs('oss')">
-                    Open Source
-                </button>
+                <div class="col-sm-4 color-pop-theme">
+                    <h2>
+                    Filters
+                    </h2>
+                    <h5>
+                    Filter projects and experience by category. Multiple filters are interpreted as a logical "or".
+                    </h5>
+                </div>
+                <div class="col-sm-8 medium-dark-theme">
+                    <div class="row">
+                        Setting:
+                        <button id="professional" class="fun-button" onClick="filterDivs('professional')">Professional</button>
+                        <button id="academic" class="fun-button" onClick="filterDivs('academic')">Academic</button>
+                        <button id="outreach" class="fun-button" onClick="filterDivs('outreach')">Outreach</button>
+                        <button id="oss" class="fun-button" onClick="filterDivs('oss')">Open Source</button>
+                    </div>
+                    <div class="row top-buffer">
+                        Programming Language:
+                        <button id="python" class="fun-button" onClick="filterDivs('python')">Python</button>
+                        <button id="java" class="fun-button" onClick="filterDivs('java')">Java</button>
+                        <button id="web" class="fun-button" onClick="filterDivs('web')">Web Markup & Scripting</button>
+                        <button id="bash" class="fun-button" onclick="filterDivs('bash')">Linux/UNIX & Bash</button>
+                    </div>
+                </div>
             </div>
-            <div class="row top-buffer">
-                Programming Language:
-                <button id="python" class="fun-button" onClick="filterDivs('python')">
-                    Python
-                </button>
-                <button id="java" class="fun-button" onClick="filterDivs('java')">
-                    Java
-                </button>
-                <button id="web" class="fun-button" onClick="filterDivs('web')">
-                    Web Markup & Scripting
-                </button>
-                <!--
-                <button id="cpp" class="fun-button" onClick="filterDivs('cpp')">
-                    C++
-                </button>
-                -->
-                <button id="bash" class="fun-button" onclick="filterDivs('bash')">
-                    Linux/UNIX & Bash
-                </button>
+
+            <div class="filterContent academic professional outreach">
+                <div class="row top-buffer">
+                    <div class="col-sm-4 color-pop-theme">
+                        <h2>ACM Officership</h2>
+                        <h5>Beginning January 2019</h5>
+                        <div class="tags"></div>
+                    </div>
+                    <div class="col-sm-8">
+                        <div class="row medium-dark-theme" id="acm"></div>
+                    </div>
+                </div>
             </div>
-        </div>
-</div>
 
-<div class="filterContent academic professional outreach">
-<div class="row top-buffer">
-    <div class="col-sm-4 color-pop-theme">
-        <h2>ACM Officership</h2>
-        <h5>Beginning January 2019</h5>
-        <div class="tags"></div>
-    </div>
-    <div class="col-sm-8">
-        <div class="row medium-dark-theme" id="acm"></div>
-    </div>
-</div>
-</div>
-
-<div class="filterContent java oss">
-<div class="row top-buffer">
-    <div class="col-sm-4 color-pop-theme">
-        <h2>GameLab for Android</h2>
-        <h5>Released January 2019</h5>
-        <div class="tags"></div>
-    </div>
-    <div class="col-sm-8">
-        <div class="row medium-dark-theme" id="gamelab"></div>
-    </div>
-</div>
-</div>
-
-<div class="filterContent python">
-<div class="row top-buffer">
-    <div class="col-sm-4 color-pop-theme">
-        <h2>Discord Bot</h2>
-        <h5>December 2018 </h5>
-        <div class="tags"></div>
-    </div>
-    <div class="col-sm-8">
-        <div class="row medium-dark-theme" id="phryer"></div>
-        <div class="row">
-            <div class="columns">
-            <img class="img-responsive" src="/misc/phryer/run_doggo_0.gif" alt="A fluffy dog running away - Pre Processing">
-            <!--
-            <img class="img-responsive" src="/misc/phryer/cat_screms.jpg" alt="Screaming Cat Montage - Pre and Post Processing">
-            -->
+            <div class="filterContent java oss">
+                <div class="row top-buffer">
+                    <div class="col-sm-4 color-pop-theme">
+                        <h2>GameLab for Android</h2>
+                        <h5>Released January 2019</h5>
+                        <div class="tags"></div>
+                    </div>
+                    <div class="col-sm-8">
+                        <div class="row medium-dark-theme" id="gamelab"></div>
+                    </div>
+                </div>
             </div>
-            <div class="columns">
-            <img class="img-responsive" src="/misc/phryer/run_doggo_1.gif" alt="A fluffy dog running away - Post Processing">
-            </div>
-            <div class="columns">
-            <img class="img-responsive" src="/misc/phryer/run_doggo_2.gif" alt="A fluffy dog running away - Post Processing">
-            <!--
-            <img class="img-responsive" src="/misc/phryer/run_skelly.gif" alt="Skeleton Running GIF - Post Processing">
-            -->
-            </div>
-            <div class="columns">
-            <img class="img-responsive" src="/misc/phryer/run_doggo_3.gif" alt="A fluffy do running away - Post Processing">
-            </div>
-        </div>
-    
-    </div>
-</div>
-</div>
 
-<div class="filterContent academic bash">
-<div class="row top-buffer">
-    <div class="col-sm-4 color-pop-theme">
-        <h2>Linux Lab Techician</h2>
-        <h5>Beginning Fall 2018 - UW Bothell</h5>
-        <div class="tags"></div>
-    </div>
-    <div class="col-sm-8 medium-dark-theme" id="linux"></div>
-</div>
-</div>
-
-<div class="filterContent python professional bash">
-<div class="row top-buffer">
-    <div class="col-sm-4 color-pop-theme">
-        <h2>Software Engineering Internship</h2>
-        <h5>Summer 2018 - Seattle, WA</h5>
-        <div class="tags"></div>
-    </div>
-    <div class="col-sm-8 medium-dark-theme" id="abc"></div>
-</div>
-</div>
-
-<!---
-<div class="filterContent python academic web">
-<div class="row top-buffer">
-    <div class="col-sm-4 color-pop-theme">
-        <h2>Scoreboard Web Application for Capture the Flag</h2>
-        <h5>Summer/Autumn 2018 - UW Bothell Gray Hats, Bothell, WA</h5>
-        <div class="tags"></div>
-    </div>
-    <div class="col-sm-8 medium-dark-theme" id="grayhats-flask"></div>
-</div>
-</div>
--->
-<div class="filterContent academic outreach">
-<div class="row top-buffer" id="makerfaire2018">
-        <div class="col-sm-4 color-pop-theme">
-            <h2>Seattle Mini Maker Faire</h2>
-            <h5>August 2018 - NSC Engineering & Rocketry Clubs</h5>
-            <div class="tags"></div>
-        </div>
-        <div class="col-sm-8">
-            <div class="row medium-dark-theme" id="makerfaire"></div>
-            <div class="row" id="mf-carousel-container">
-                <div id="mf-carousel" class="carousel slide" data-ride="carousel">
-                    <!--- Indicators (slide order) for carousel -->
-                    <ol class="carousel-indicators">
-                        <li data-target="#mf-carousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#mf-carousel" data-slide-to="1"></li>
-                        <li data-target="#mf-carousel" data-slide-to="2"></li>
-                        <li data-target="#mf-carousel" data-slide-to="3"></li>
-                    </ol>
-                    <!-- wrapper for slides and corresponding images -->
-                    <div class="carousel-inner">
-                        <div class="item active">
-                            <img src="./misc/makerfaire/1.jpg" alt="Kids playing with slime">
-                            <div class="carousel-caption">
-                                <h3>Magnetic Slime!</h3>
-                                <p>Some kids thought it was the coolest thing ever, and some thought it was gross. :)</p>
-                            </div>
+            <div class="filterContent python">
+                <div class="row top-buffer">
+                    <div class="col-sm-4 color-pop-theme">
+                        <h2>Discord Bot</h2>
+                        <h5>December 2018 </h5>
+                        <div class="tags"></div>
+                    </div>
+                    <div class="col-sm-8">
+                        <div class="row medium-dark-theme" id="phryer">
                         </div>
-                        <div class="item">
-                            <img src="./misc/makerfaire/2.jpg" alt="Kids making slime and working on rockets">
-                            <div class="carousel-caption">
-                                <h3>Getting Curious about Science</h3>
-                                <p>Here, some attendees are playing with slime, and some are constructing and decorating their rockets.</p>
+                        <div class="row">
+                            <div class="columns">
+                                <img class="img-responsive" src="/images/phryer/run_doggo_0.gif" alt="A fluffy dog running away - Pre Processing">
                             </div>
-                        </div>
-                        <div class="item">
-                            <img src="./misc/makerfaire/3.jpg" alt="NSC students at the exhibit table">
-                            <div class="carousel-caption">
-                                <h3>NSC Represent!</h3>
-                                <p>Donna and Mason of North Seattle College explain the science behind our exhibit. Rocketry Club's builds are on the left.</p>
+                            <div class="columns">
+                                <img class="img-responsive" src="/images/phryer/run_doggo_1.gif" alt="A fluffy dog running away - Post Processing">
                             </div>
-                        </div>
-                        <div class="item">
-                            <!-- working on responsiveness of video 
-                            <div class="embed-responsive">
-                                <video class="embed-responsive-item" controls>
-                                    <source src="./misc/makerfaire/4.mp4" type="video/mp4">
-                                </video>
+                            <div class="columns">
+                                <img class="img-responsive" src="/images/phryer/run_doggo_2.gif" alt="A fluffy dog running away - Post Processing">
                             </div>
-                            -->
-                            <video controls>
-                                <source src="./misc/makerfaire/4.mp4" type="video/mp4">
-                            </video>
-                            <div class="carousel-caption">
-                                <h3>Rocket Launch!</h3>
-                                <p>This guy was so excited, he launched his rocket 3 times!</p>
+                            <div class="columns">
+                                <img class="img-responsive" src="/images/phryer/run_doggo_3.gif" alt="A fluffy dog running away - Post Processing">
                             </div>
                         </div>
                     </div>
-                    <a class="left carousel-control" href="#mf-carousel" role="button" data-slide="prev">
-                        <span class="glyphicon glyphicon-chevron-left"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="right carousel-control" href="#mf-carousel" role="button" data-slide="next">
-                        <span class="glyphicon glyphicon-chevron-right"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
                 </div>
             </div>
+
+            <div class="filterContent academic bash">
+                <div class="row top-buffer">
+                    <div class="col-sm-4 color-pop-theme">
+                        <h2>Linux Lab Techician</h2>
+                        <h5>Beginning Fall 2018 - UW Bothell</h5>
+                        <div class="tags"></div>
+                    </div>
+                    <div class="col-sm-8 medium-dark-theme" id="linux"></div>
+                </div>
+            </div>
+
+            <div class="filterContent python professional bash">
+                <div class="row top-buffer">
+                    <div class="col-sm-4 color-pop-theme">
+                        <h2>Software Engineering Internship</h2>
+                        <h5>Summer 2018 - Seattle, WA</h5>
+                        <div class="tags"></div>
+                    </div>
+                    <div class="col-sm-8 medium-dark-theme" id="abc"></div>
+                </div>
+            </div>
+
+            <div class="filterContent academic outreach">
+                <div class="row top-buffer" id="makerfaire2018">
+                    <div class="col-sm-4 color-pop-theme">
+                        <h2>Seattle Mini Maker Faire</h2>
+                        <h5>August 2018 - NSC Engineering & Rocketry Clubs</h5>
+                        <div class="tags"></div>
+                    </div>
+                    <div class="col-sm-8">
+                        <div class="row medium-dark-theme" id="makerfaire"></div>
+                        <div class="row" id="mf-carousel-container">
+                            <div id="mf-carousel" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#mf-carousel" data-slide-to="0" class="active"></li>
+                                    <li data-target="#mf-carousel" data-slide-to="1"></li>
+                                    <li data-target="#mf-carousel" data-slide-to="2"></li>
+                                    <li data-target="#mf-carousel" data-slide-to="3"></li>
+                                </ol>
+                                <!-- wrapper for slides and corresponding images -->
+                                <div class="carousel-inner">
+                                    <div class="item active">
+                                        <img src="./images/makerfaire/1.jpg" alt="Kids playing with slime">
+                                        <div class="carousel-caption">
+                                            <h3>Magnetic Slime!</h3>
+                                            <p>Some kids thought it was the coolest thing ever, and some thought it was gross. :)</p>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <img src="./images/makerfaire/2.jpg" alt="Kids making slime and working on rockets">
+                                        <div class="carousel-caption">
+                                            <h3>Getting Curious about Science</h3>
+                                            <p>Here, some attendees are playing with slime, and some are constructing and decorating their rockets.</p>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <img src="./images/makerfaire/3.jpg" alt="NSC students at the exhibit table">
+                                        <div class="carousel-caption">
+                                            <h3>NSC Represent!</h3>
+                                            <p>Donna and Mason of North Seattle College explain the science behind our exhibit. Rocketry Club's builds are on the left.</p>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <!-- working on responsiveness of video 
+                                        <div class="embed-responsive">
+                                            <video class="embed-responsive-item" controls>
+                                                <source src="./misc/makerfaire/4.mp4" type="video/mp4">
+                                            </video>
+                                        </div>
+                                        -->
+                                        <video controls>
+                                            <source src="./images/makerfaire/4.mp4" type="video/mp4">
+                                        </video>
+                                        <div class="carousel-caption">
+                                            <h3>Rocket Launch!</h3>
+                                            <p>This guy was so excited, he launched his rocket 3 times!</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a class="left carousel-control" href="#mf-carousel" role="button" data-slide="prev">
+                                    <span class="glyphicon glyphicon-chevron-left"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="right carousel-control" href="#mf-carousel" role="button" data-slide="next">
+                                    <span class="glyphicon glyphicon-chevron-right"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="filterContent python">
+                <div class="row top-buffer">
+                    <div class="col-sm-4 color-pop-theme">
+                        <h2>Plotting for Hobbyists</h2>
+                        <h5>Summer 2018</h5>
+                        <div class="tags"></div>
+                    </div>
+                    <div class="col-sm-8">
+                        <div class="row medium-dark-theme" id="plotfun"></div>
+                        <div class="row">
+                            <img class="img-responsive" src="./images/climbing-plot.png" alt="Climbing Plot">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="filterContent java oss">
+                <div class="row top-buffer">
+                    <div class="col-sm-4 color-pop-theme">
+                        <h2>Open Source Beginnings</h2>
+                        <h5>April-May 2018</h5>
+                        <div class="tags"></div>
+                    </div>
+                    <div class="col-sm-8 medium-dark-theme" id="off"></div>
+                </div>
+            </div>
+
+            <div class="filterContent web">
+                <div class="row top-buffer">
+                    <div class="col-sm-4 color-pop-theme">
+                        <h2>Portfolio Website</h2>
+                        <div class="tags"></div>
+                    </div>
+                    <div class="col-sm-8 medium-dark-theme" id="portfolio-web"></div>
+                </div>
+            </div>
+
+            <div class="filterContent java">
+                <div class="row top-buffer">
+                    <div class="col-sm-4 color-pop-theme">
+                        <h2>Minesweeper</h2>
+                        <h5>Summer 2017</h5>
+                        <div class="tags"></div>
+                    </div>
+                    <div class="col-sm-8 medium-dark-theme" id="minesweeper"></div>
+                </div>
+            </div>
+
+            <script>
+                $( "#minesweeper" ).load("/projects/minesweeper.txt");
+                $( "#portfolio-web" ).load("/projects/portfolio.txt");
+                $( "#abc" ).load("/projects/abc.txt");
+                $( "#grayhats-flask" ).load("/projects/scoreboard.txt");
+                $( "#makerfaire" ).load("/projects/makerfaire.txt");
+                $( "#off" ).load("/projects/off.txt");
+                $( "#plotfun" ).load("/projects/plotfun.txt");
+                $( "#linux" ).load("/projects/linuxlab.txt");
+                $( "#phryer" ).load("/projects/discordphryer.txt");
+                $( "#gamelab" ).load("/projects/gamelab.txt");
+                $( "#acm" ).load("/projects/acm.txt");
+            </script>
+
         </div>
-</div>
-</div>
-
-<div class="filterContent python">
-<div class="row top-buffer">
-    <div class="col-sm-4 color-pop-theme">
-        <h2>Plotting for Hobbyists</h2>
-        <h5>Summer 2018</h5>
-        <div class="tags"></div>
-    </div>
-    <div class="col-sm-8">
-        <div class="row medium-dark-theme" id="plotfun"></div>
-        <div class="row">
-            <img class="img-responsive" src="/misc/climbing-plot.png" alt="Climbing Plot">
-        </div>
-    </div>
-</div>
-</div>
-
-<div class="filterContent java oss">
-<div class="row top-buffer">
-    <div class="col-sm-4 color-pop-theme">
-        <h2>Open Source Beginnings</h2>
-        <h5>April-May 2018</h5>
-        <div class="tags"></div>
-    </div>
-    <div class="col-sm-8 medium-dark-theme" id="off"></div>
-</div>
-</div>
-
-<div class="filterContent web">
-<div class="row top-buffer">
-    <div class="col-sm-4 color-pop-theme">
-        <h2>Portfolio Website</h2>
-        <div class="tags"></div>
-
-    </div>
-    <div class="col-sm-8 medium-dark-theme" id="portfolio-web"></div>
-</div>
-</div>
-
-<div class="filterContent java">
-<div class="row top-buffer">
-    <div class="col-sm-4 color-pop-theme">
-        <h2>Minesweeper</h2>
-        <h5>Summer 2017</h5>
-        <div class="tags"></div>
-    </div>
-    <div class="col-sm-8 medium-dark-theme" id="minesweeper"></div>
-</div>
-</div>
-
-<script>
-    $( "#minesweeper" ).load("/projects/minesweeper.txt");
-    $( "#portfolio-web" ).load("/projects/portfolio.txt");
-    $( "#abc" ).load("/projects/abc.txt");
-    $( "#grayhats-flask" ).load("/projects/scoreboard.txt");
-    $( "#makerfaire" ).load("/projects/makerfaire.txt");
-    $( "#off" ).load("/projects/off.txt");
-    $( "#plotfun" ).load("/projects/plotfun.txt");
-    $( "#linux" ).load("/projects/linuxlab.txt");
-    $( "#phryer" ).load("/projects/discordphryer.txt");
-    $( "#gamelab" ).load("/projects/gamelab.txt");
-    $( "#acm" ).load("/projects/acm.txt");
-</script>
-
-</div>
-</body>
+    </body>
 </html>
