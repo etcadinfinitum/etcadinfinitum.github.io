@@ -107,3 +107,26 @@ jumborow > [class*='col-'] {
     float: left;
     width: 25%;
 }
+
+.fa {
+    padding: 20px;
+    font-size: 50px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-github {
+    background: #88D317;
+    color: black;
+}
+
+.fa-linkedin {
+    background: #88D317;
+    color: black;
+}
