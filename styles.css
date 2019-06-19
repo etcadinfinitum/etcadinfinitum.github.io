@@ -1,5 +1,5 @@
 body {
-  	background-image: url(/misc/connectwork.png)
+  	background-image: url(/images/connectwork.png)
 }
 
 .medium-dark-theme {
@@ -47,13 +47,13 @@ a:active {
 }
 
 .left-border {
-    background: url(/misc/fern-2.jpg);
+    background: url(/images/fern-2.jpg);
     background-size: cover;
     overflow: hidden;
 }
 
 .right-border {
-    background: url(/misc/fern.jpg);
+    background: url(/images/fern.jpg);
     background-size: cover;
     overflow: hidden;
 }
@@ -111,7 +111,7 @@ jumborow > [class*='col-'] {
 .fa {
     padding: 20px;
     font-size: 50px;
-    width: 50px;
+    width: 90px;
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
