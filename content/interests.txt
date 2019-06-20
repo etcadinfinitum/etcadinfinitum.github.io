@@ -9,6 +9,7 @@
     <li>Data Visualization</li>
     <li>FLOSS</li>
     <li>History of Computers</li>
+    <li>Neural Networks & Machine Learning</li>
     <li>Python</li>
     <li>Student Outreach</li>
 </ul>
