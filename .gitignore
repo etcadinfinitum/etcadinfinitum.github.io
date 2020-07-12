@@ -4,6 +4,5 @@ _site
 .jekyll-metadata
 Gemfile
 Gemfile.lock
-_posts
-_config.yml
 .*.swp
+__pycache__

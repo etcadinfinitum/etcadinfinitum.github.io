@@ -1,0 +1,32 @@
+# Theme
+remote_theme:     'poole/hyde'
+
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Lizzy Kate
+tagline:          'Lizzy Kate'
+description:      'I am nothing if not a work in progress.'
+url:              https://lizzy.wiki/
+
+author:
+  name:           'Lizzy Presland'
+  url:            https://lizzy.wiki/
+
+paginate:         3
+emailme:          mailto:lizzy.presland@gmail.com
+
+plugins:          [jekyll-paginate, jekyll-seo-tag, jekyll-sitemap, jemoji]
+
+github:
+  repo:           https://github.com/etcadinfinitum/etcadinfinitum.github.io
+
+tags:
+
+github_username:  etcadinfinitum
+linkedin_username: etcadinfinitum
