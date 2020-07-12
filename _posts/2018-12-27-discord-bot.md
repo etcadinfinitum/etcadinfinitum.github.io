@@ -9,7 +9,7 @@ My cohorts at UW Bothell use Discord frequently, and I got inspired to create a 
 
 The result of my work is the DeepPhryBot. Some example output is shown in the image gallery below. 
 
-![original gif](/public/images/phryer/run_doggo_0.gif) ![processed gif 1](/public/images/phryer/run_doggo_1.gif) ![processed gif 2](/public/images/phryer/run_doggo_2.gif) ![processed gif 3](/public/images/phryer/run_doggo_3.gif) 
+{% include gallery.html folder="/public/images/phryer" %}
 
 It was really fun to put this into production and get feedback from users. I have some ideas to improve existing functionality and support user feedback on image modulation presets; I look forward to seeing this project grow.
 
