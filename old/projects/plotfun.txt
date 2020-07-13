@@ -1,9 +1,0 @@
-<p>I started rock climbing in May 2018, and made a lot of effort to track my sessions at the bouldering gym so I could 
-track progress. I used this as an excuse to dive into Python's matplotlib libraries and increase my plotting prowess.</p>
-<p>The end result is pretty pleasing for me personally - it was super rewarding to see my progress and increased fitness 
-visualized so clearly, as well as see the cost-effectiveness of my new hobby! Climbing can be expensive.</p>
-<p>As part of this project, I went through two iterations of the script to generate the plots. The first iteration was 
-a rather crude implementation, but I got some great feedback from a few folks and reworked the entire script to be 
-much more readable, logical, and even a bit shorter! Check out the repository <a target="_blank" href="https://github.com/etcadinfinitum/plots">here</a>.</p>
-<p>I also shared it on Reddit, and the folks on /r/bouldering and /r/dataisbeautiful had really nice things to say!
-Check out the /r/bouldering share <a target="_blank" href="https://www.reddit.com/r/bouldering/comments/96wdax/visualization_of_progress_as_a_brandnew_climber_oc/">here</a>.</p>
