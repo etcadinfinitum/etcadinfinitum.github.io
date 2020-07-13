@@ -1,0 +1,68 @@
+<!-- Adapted from the Jekyll Codex gallery snippet:
+     https://jekyllcodex.org/without-plugin/image-gallery/#
+     -->
+
+<style>
+    .image-gallery {
+        display: flex; 
+        overflow-x: auto; 
+        padding: 0px; 
+        min-height: 250px;
+        margin-bottom: 1rem;
+    }
+    .image-gallery::-webkit-scrollbar {
+        display: none;
+    }
+    .gallery-item {
+        min-width: 30%;
+        padding: 3px;
+        display: flex;
+        flex-direction: column;
+    }
+    @media screen and (max-width: 600px) {
+        .gallery-item {
+            min-width: 55%;
+        }
+    }
+    .gallery-item a {
+        text-align: center; 
+        text-decoration: none!important; 
+        color: #777;
+    }
+    .gallery-item a span {
+        display: block; 
+        text-overflow: ellipsis; 
+        overflow: hidden; 
+        white-space: nowrap; 
+        padding: 3px 0;
+    }
+    .gallery-container {
+        flex-grow: 1
+    }
+    .gallery-container img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; 
+    }
+</style>
+
+<section class="image-gallery">
+    {% for file in site.static_files %}
+        {% if file.path contains include.folder %}
+            {% if file.extname == '.jpg' or file.extname == '.gif' or file.extname == 'png' %}
+                {% assign filenameparts = file.path | split: "/" %}
+                {% assign filename = filenameparts | last | replace: file.extname,"" %}
+                <div class="gallery-item">
+                    <div class="gallery-container">
+                        <a href="{{ file.path | relative_url }}" title="{{ filename }}">
+                            <img src="{{ file.path }}" alt="{{ filename }}" title="{{ filename }}" />
+                        </a>
+                    </div>
+                    <a href="{{ file.path | relative_url }}" title="{{ filename }}">
+                        <span>{{ filename }}</span>
+                    </a>
+                </div>
+            {% endif %}
+        {% endif %}
+    {% endfor %}
+</section>
