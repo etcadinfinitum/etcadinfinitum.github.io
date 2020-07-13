@@ -1,6 +1,3 @@
-# Theme
-remote_theme:     'poole/hyde'
-
 # Dependencies
 markdown:         kramdown
 highlighter:      rouge

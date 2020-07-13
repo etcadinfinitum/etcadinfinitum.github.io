@@ -1,3 +1,6 @@
-# etcadinfinitum.github.io
+# Stories and Musings
 
-### now hosted at https://lizzy.wiki/
+Hosted at <https://lizzy.wiki/>.
+
+Theme by [Hyde](https://github.com/poole/hyde), with modifications by 
+[Long Quian](https://github.com/qian256/qian256.github.io).
