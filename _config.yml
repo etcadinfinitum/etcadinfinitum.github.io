@@ -15,7 +15,7 @@ author:
   name:           'Lizzy Presland'
   url:            https://lizzy.wiki/
 
-paginate:         3
+paginate:         2
 emailme:          mailto:lizzy.presland@gmail.com
 
 plugins:          [jekyll-paginate, jekyll-seo-tag, jekyll-sitemap, jemoji]
