@@ -2,3 +2,11 @@
     display: block;
     margin-bottom: 1rem;
 }
+
+a.no-underline {
+    text-decoration: none;
+    color: #990099;
+}
+a.no-underline:hover, a.no-underline:active {
+    text-decoration: none;
+}

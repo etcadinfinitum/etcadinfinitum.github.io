@@ -1,0 +1,122 @@
+/*
+ * Global resets
+ *
+ * Update the foundational and global aspects of the page.
+ */
+
+* {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+/*
+ * Sidebar and content flow rules.
+ * 
+ * Dictates whether top-down or side-by-side display 
+ * is used.
+ * Also includes reverse-layout rules for flipping 
+ * orientation of content and sidebar.
+ */
+.sidebar {
+    padding: 2rem;
+    text-align: center;
+    position: relative;
+}
+.content {
+    max-width:      1000px;
+    padding-left:   2rem;
+    padding-right:  2rem;
+    padding-top:    4rem;
+    padding-bottom: 4rem;
+    margin-left:    auto;
+    margin-right:   auto;
+}
+
+@media (min-width: 48em) {
+    body {
+        display: flex;
+        flex-direction: row;
+    }
+    .sidebar {
+        width: 33%;
+        text-align: right;
+    }
+    .content {
+        width: 67%;
+        margin: 0;
+    }
+    body.layout-reverse {
+        flex-direction: row-reverse;
+    }
+    .layout-reverse .sidebar {
+        text-align: left;
+    }
+}
+
+/*
+ * Content padding for medium viewports
+ */
+@media (min-width: 48em) {
+    .content {
+        padding-left: 4rem;
+        padding-right: 8rem;
+    }
+    .layout-reverse .content {
+        padding-left: 8rem;
+        padding-right: 4rem;
+    }
+}
+
+/*
+ * Content padding for large viewports
+ */
+@media (min-width: 64em) {
+    .content {
+        width: 75%;
+        padding-left: 4rem;
+        padding-right: 12rem;
+    }
+    .layout-reverse .content {
+        padding-left: 12rem;
+        padding-right: 4rem;
+    }
+}
+
+
+/* Sticky sidebar
+ *
+ * Add the `sidebar-sticky` class to the sidebar's container to affix it the
+ * contents to the bottom of the sidebar in tablets and up.
+ */
+
+@media (min-width: 48em) {
+    .sidebar-sticky {
+        position: fixed;
+        float: left;
+        bottom: 1rem;
+        width: 25%;
+    }
+    .layout-reverse .sidebar-sticky {
+        float: right;
+    }
+}
+
+/*
+ * Posts and pages
+ *
+ * Each post is wrapped in `.post` and is used on default and post layouts. Each
+ * page is wrapped in `.page` and is only used on the page layout.
+ */
+.page,
+.post {
+    margin-bottom: 4em;
+}
+
+
