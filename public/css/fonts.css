@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Roboto+Mono&display=swap');
+
+.sidebar-about h1 {
+    font-family: 'Bungee Shade', cursive;
+}
+
+.sidebar-about p {
+    font-family: 'Roboto Mono', monospace;
+}
