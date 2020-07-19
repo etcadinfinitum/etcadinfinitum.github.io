@@ -84,7 +84,61 @@ merits are a separate concern from this post.
 
 ### Building This Blog's Layout
 
-## Caveats and Lessons
+Perusing the web for a tagging option, I ran across Long Qian's 
+[blog](https://longqian.me). I liked the simplicity of the sidebar 
+layout and thought the tagging solution was great. So, I adopted 
+most of those ideas to create this site.
+
+#### Adapting Existing Templates
+
+The theme is based on [Hyde](https://github.com/poole/hyde), but 
+I found that the proportions of the layout were difficult to modify 
+by hand using the measurements dictated in Hyde. The measurement of the 
+sidebar element is an explicit multiple of the base font size, and I 
+found that trying to tweak the sidebar size and the text placement within 
+the sidebar lead to inconsistent results that I did not like. 
+
+So, perhaps against the better wisdom of the talented folks who created 
+Hyde, I changed the layout to use CSS Flexboxes. Many of the ideas 
+from Hyde, including the reversible sidebar and sticky content, were 
+retained in this migration.
+
+I also added the post tagging modules used by Qian, with almost no 
+changes made to the functionality.
+
+#### Migration and Results
+
+The migration process was not straightforward at all. The Hyde theme is 
+built off of Poole, but Hyde does not adhere to the traditional pattern 
+of extensibility via Jekyll. The theme's stylesheets are not in the 
+`assets` or `_sass` folders, which would allow Jekyll to automatically 
+reference these files. 
+
+As part of adapting this theme, I had to add the stylesheets to the 
+repository myself. I ended up pulling most of the layouts and include 
+portions as well so they could be adapted as needed. The two stylesheets 
+that came with Hyde did not reflect layout responsibilities; they were 
+instead organized by the theme they were taken from.
+
+To make the migration process more straightforward, I refactored specific 
+components into a pattern that made more sense to me:
+* `structure.css` for fundamental page layout; sidebar layout, media queries 
+  for mobile layouts, and margins/padding
+* `text.css` for font size and families for various types of tags, as 
+  well as formatting for post pagination
+* `syntax.css` for syntax highlighting; this was taken directly from 
+  the Hyde repository
+
+I added the following sheets as well:
+* `themes.css` for theme colors and options
+* `fonts.css` for font selections, in particular for the sidebar
+* `tags.css` for formatting post tags (a fairly straightforward task)
+
+After reworking the page structure into something that made more 
+sense to me, I added some cosmetic finishing touches, and voilà! You 
+are reading the results.
+
+## Jekyll's Caveats and Lessons
 
 Jekyll's utility grows exponentially with the technical capabilities of 
 its users. The ability to create themes from scratch, adapt themes to suit 
