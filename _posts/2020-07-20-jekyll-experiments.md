@@ -7,7 +7,9 @@ tags: side-projects web-dev
 
 Jekyll is a beautiful tool for creating beautiful sites with minimal 
 configuration. As someone who was writing site content almost every week for 
-the past 6 months, I got all the 
+the past 6 months, I got a lot of exposure into the possibilities of 
+the platform, as well as the limitations of plugin usage and customization, 
+especially where GitHub Pages is concerned.
 
 ## Projects
 
@@ -63,8 +65,8 @@ user needs, structure the site, and present content provides plenty of
 flexibility for creating a site. 
 
 However, these tools are not very accessible for individuals who don't 
-have knowledge of the templating language engines that Jekyll uses, like 
-[Liquid](https://shopify.github.io/liquid/) and 
+have knowledge of the templating and programming languages that Jekyll 
+uses, like [Liquid](https://shopify.github.io/liquid/) and 
 [Ruby](https://www.ruby-lang.org/en/), in addition to basic web development 
 knowledge.
 
@@ -79,7 +81,7 @@ header for branding still requires additional effort.
 I also wish that there were whitelisted plugins that could emulate the 
 `jekyll-tagging` and `jekyll-spaceship` functionality, so that the 
 process of creating a site specifically for GitHub Pages was even 
-simpler.
+more flexible without configuring CI/CD or making compromises on content.
 
 ## Tools I Love
 
