@@ -53,6 +53,33 @@ The final result:
 
 ### Multimedia Pages with `jekyll-spaceship`
 
+For a final project in my undergraduate degree, I built a site which 
+could render images and audio nicely, along with tables that allow 
+for merged cells to better present related information.
+
+Image and audio support can be done with inline HTML relatively easily, 
+but writing an HTML table from scratch is inconvenient and error-prone. 
+So, after some poking around, I found 
+[`jekyll-spaceship`](https://github.com/jeffreytse/jekyll-spaceship), 
+a really neat gem plugin for Jekyll which had the added benefit in this 
+use case of supporting MathJax. 
+
+With this plugin, the project did not have to compromise logical 
+content flow with the presentation of the content; here's an example 
+of the table layout we used for before & after results:
+
+![spectrograms and audio of DSP project](/public/images/jekyll/spaceship-tables.png)
+
+I was very pleased with the results, although the lack of WYSIWYG 
+previews still mandated some experimentation. I also had to configure 
+a continuous deployment option for this repository so that the 
+non-whitelisted plugin would deploy the correctly formatted code without 
+generating the static files offline.
+
+Side note: it is a shame that this project didn't make use of the 
+MathJax capabilities of this Jekyll plugin; the project's academic 
+merits are a separate concern from this post.
+
 ### Building a New Theme From Scratch
 
 ### Building This Blog's Layout
