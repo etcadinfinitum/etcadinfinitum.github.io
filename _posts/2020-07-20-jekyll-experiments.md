@@ -82,6 +82,32 @@ merits are a separate concern from this post.
 
 ### Building a New Theme From Scratch
 
+I wanted to have fun with a theme of my own, and originally intended to 
+migrate the documentation site for the 
+[2019 school hackathon](https://uwbhacks.com/archive/2019/) from its 
+former [`wiki.js`](https://wiki.js.org/) layout to a Jekyll layout that 
+can be hosted through GitHub Pages, like all of the organization's other 
+pages.
+
+So, I created a heckin' vaporwave theme! I also exercised my (possibly 
+overenthusiastic) love of linear gradients.
+
+![mixtape jekyll theme](/public/images/jekyll/mixtape.png)
+
+Most of the theme is simple fare; it supports an index and about 
+page as well as a blog in a `_posts` directory. The particular things that 
+I wanted to implement and are functional are:
+
+* Dynamically changing the navbar menu and header button links 
+  and text within the `_config.yml` configuration file
+* Supporting a mobile-friendly collapsible navbar (all CSS, no JavaScript)
+  ![collapsible navbar](/public/images/jekyll/mixtape-nav.gif)
+
+This theme isn't as extensible as I would like it to be eventually; it 
+would be great to support an optional tag- or collection-based 
+navigation bar and improve font size behavior in the header for mobile 
+views.
+
 ### Building This Blog's Layout
 
 Perusing the web for a tagging option, I ran across Long Qian's 
