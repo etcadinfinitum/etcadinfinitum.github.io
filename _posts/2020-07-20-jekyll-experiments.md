@@ -49,7 +49,7 @@ more friendly fashion.
 
 The final result:
 
-![hackathon docs page](/public/assets/images/jekyll/hackathon.png)
+![hackathon docs page](/public/images/jekyll/hackathon.png)
 
 ### Multimedia Pages with `jekyll-spaceship`
 
