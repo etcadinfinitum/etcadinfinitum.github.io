@@ -382,4 +382,10 @@ a.pagination-item:hover {
   }
 }
 
-
+img.emoji {
+    display: inline;
+    margin: 0;
+    border-radius: 0px;
+    width: 16px;
+    height: 16px;
+}
